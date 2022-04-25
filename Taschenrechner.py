@@ -18,7 +18,7 @@ def rechner(x):
     for i in range(0, len(x)):
         if x[i] in operator:
             b = x[i]
-            if x[i + 1] in operator:    # Loop überprüft ob ein Operator mit 2 Zeichen besteht
+            if x[i + 1] in operator:    #  Überprüft ob ein Operator mit 2 Zeichen besteht
                 b2 = x[i + 1]
                 b += b2
                 break
