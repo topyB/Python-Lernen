@@ -27,3 +27,8 @@ elif temp.endswith("C") == True:
    Fahrenheit = (float(temp))*(9/5)+32
    print(str(Fahrenheit)+"F")
 
+   
+   
+   
+   
+   
