@@ -1,7 +1,7 @@
 ##Einfacher Rechner ohne eval()
 
 def rechner(x):
-# Anlegen einer "dictionary" mit deren Hilfe
+# Anlegen einer "dictionary" mit deren Hilfe Operatoren aus dem Input-String (x) bestimmt werden
     import operator
     operator = {
                 "*" :   operator.mul,
