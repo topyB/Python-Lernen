@@ -1,7 +1,7 @@
 ##Einfacher Rechner ohne eval()
 
 def rechner(x):
-# Anlegen einer "dictionary" mit deren Hilfe Operatoren aus dem Input-String (x) bestimmt werden
+# Anlegen einer "dictionary" mit deren Hilfe der Operator aus dem Input-String (x) bestimmt wird
     import operator
     operator = {
                 "*" :   operator.mul,
@@ -13,7 +13,7 @@ def rechner(x):
                 "%" :   operator.mod
                 }
 
-# Aufteilen des Input-Strings in 3 Parts = a (wert1), b(operator), c (wert2).
+# Aufteilen des Input-Strings in 3 Parts = a (wert1), b(operator), c (wert2)
 
     for i in range(0, len(x)):
         if x[i] in operator:
