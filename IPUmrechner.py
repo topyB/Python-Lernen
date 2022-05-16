@@ -1,5 +1,5 @@
 ##IP Umrechner von dezimal zu binär und umgekehrt. Eine einfacherere Methode existiert bereits: https://docs.python.org/3/library/ipaddress.html#ipaddress.ip_address 
-##dies entstand aus Lernzwecken
+##dies entstand aus Lernzwecken und automatisiert den Prozess wie hier dargestellt: https://youtu.be/mb5sf9K9Fp4
 
 ## dezimal zu binär
 
