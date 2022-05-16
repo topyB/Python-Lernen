@@ -99,14 +99,14 @@ while Terminate == False:
     if InputAuswahl == "terminate":
         Terminate = True 
  
-    elif int(InputAuswahl) == 1:
+    elif InputAuswahl == "1":
         print("Gebe eine gültige binäre IP ein. Format = xxxxxxxx.xxxxxxxx.xxxxxxxx.xxxxxxxx (nur binäre Zahlen 0 und 1).")
         InputIP = input() 
         binIPvalid = valid_bin(InputIP)
         if binIPvalid == False:
             print(bin_dez(InputIP))
   
-    elif int(InputAuswahl) == 2:
+    elif InputAuswahl == "2":
         print("Gebe eine gültige dezimale IP ein. Format = x.x.x.x (Zahlen von 1 bis 255. Maximal = 255.255.255.244).")
         InputIP = input() 
         binIPvalid = valid_dez(InputIP)
