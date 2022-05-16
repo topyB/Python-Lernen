@@ -112,3 +112,5 @@ while Terminate == False:
         binIPvalid = valid_dez(InputIP)
         if binIPvalid == False:      
             print(dez_bin(InputIP))
+    else:
+        print("Die Eingabe ist ungültig.")
